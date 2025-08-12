@@ -13,6 +13,9 @@ const allowedOrigins = [
   'https://istetiet.com',
   'https://iste-website-kappa.vercel.app/',
   'http://127.0.0.1:5500',
+  'http://localhost:5173/',
+  'https://iste-mainwebsite.vercel.app/',
+  'https://iste-mainwebsite.vercel.app/contact',
   'https://istetiet.com/contact',
 ];
 
@@ -83,4 +86,5 @@ app.post('/api/contact', async (req, res) => {
 });
 
 // Start Server
+
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
